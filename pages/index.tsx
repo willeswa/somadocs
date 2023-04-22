@@ -47,7 +47,7 @@ export default function Home() {
    setIsLoading(true)
     const question = {
       prompt: prompt,
-      character: Personalities.legal,
+      character: Personalities.knowledgable,
       pdfName: fileName  
     }
     const headers = {
